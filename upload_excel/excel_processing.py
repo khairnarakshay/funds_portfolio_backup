@@ -855,6 +855,7 @@ def Baroda_BNP_Paribas_Mutual_Fund(file , scheme , amc):
         category_totals = {
             "Equity": 0,
             "Debt": 0,
+            "Gold" : 0,
             "Derivatives": 0,
             "Money Market": 0,
             "Others": 0,
@@ -876,6 +877,9 @@ def Baroda_BNP_Paribas_Mutual_Fund(file , scheme , amc):
             elif name.startswith('debt'):
                 current_category = "Debt"
                 continue
+            elif name.startswith('gold'):
+                current_category = "Gold"
+                continue 
             elif name.startswith('derivatives'):
                 current_category = "Derivatives"
                 continue
