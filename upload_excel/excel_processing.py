@@ -1150,6 +1150,7 @@ def Bajaj_Finserv_Mutual_Fund(file, scheme, amc):
             print(f"{category} Total: {total}")
         print("Total Market Value:", total_market_value)
         print('++++++++++++++++++++++++++++++++++++++++')
+        print("Data saved successfully!")
 
         if uploaded_file:
             try:
