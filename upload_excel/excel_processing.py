@@ -16,13 +16,12 @@ def process_amc_excel_file(amc, scheme, file):
     Determines which function to call based on the AMC.
     """
     amc_functions = {
-        "JM Financial Mutual Fund": JM_Financial_Mutual_Fund,
+       
         "SBI Mutual Fund" : SBI_Mutual_Fund,
         "ICICI Prudential Mutual Fund" : ICICI_Prudential_Mutual_Fund,
-        "Aditya Birla Sun Life Mutual Fund": Aditya_Birla_Sun_Life_Mutual_Fund,
+
         "Baroda BNP Paribas Mutual Fund" : 	Baroda_BNP_Paribas_Mutual_Fund,  
-        "Bajaj Finserv Mutual Fund" : Bajaj_Finserv_Mutual_Fund,
-        "Canara Robeco Mutual Fund" : Canara_Robeco_Mutual_Fund,    
+         "DSP Mutual Fund" : DSP_Mutual_Fund,
         
        
     }
